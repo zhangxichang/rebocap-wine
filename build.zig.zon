@@ -1,0 +1,17 @@
+.{
+    .name = .rebocap_wine,
+    .version = "0.1.0",
+    .fingerprint = 0x716377e033764122,
+    .minimum_zig_version = "0.16.0",
+    .paths = .{
+        "build.zig.zon",
+        "build.zig",
+        "README.md",
+        "src",
+        "scripts",
+        "system-setupapi.dll",
+        "rebocap-wine-install.sh",
+        "rebocap-wine-uninstall.sh",
+    },
+    .dependencies = .{},
+}
